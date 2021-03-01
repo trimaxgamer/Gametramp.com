@@ -32,11 +32,21 @@ body {
   padding-left: 200px;
   position: absolute;
 }
+
 h1 {
   font-size: 50px;
   font-family: 'Lilita One';
 }
+
 .inside {
   padding-left: 10px;
   padding-bottom: 10px;
 }
+
+.seperator {
+  width: 50px;
+  text-align: left;
+  margin-left: 0;
+  border: solid white;
+  border-radius: 5px;
+  "}
