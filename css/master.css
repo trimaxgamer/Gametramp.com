@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans&display=swap');
 
 body {
+  margin: 0;
   color: white;
   background-color: #333333;
-  margin-right: 20px;
 }
 
 .sidenav {
@@ -29,10 +29,14 @@ body {
 
 .content {
   font-family: 'Open Sans';
-  margin-left: 200px;
+  padding-left: 200px;
+  position: absolute;
 }
-
 h1 {
   font-size: 50px;
   font-family: 'Lilita One';
+}
+.inside {
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
